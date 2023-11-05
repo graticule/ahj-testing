@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", () => {
     input.classList.remove("wrong");
     const active = document.querySelector(".type_active");
     if (active) active.classList.remove("type_active");
-
   });
   document.addEventListener("click", (e) => {
     if (e.target.closest(".card-widget__button")) {
@@ -20,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (result) {
         input.classList.add("correct");
         input.classList.remove("wrong");
-        if(type) {
+        if (type) {
           document.querySelector(`.type_${type}`).classList.add("type_active");
         }
       } else {
