@@ -69,3 +69,13 @@
   -moz-appearance: none;
   -webkit-appearance: none;
 }
+
+.correct {
+  outline: green solid 2px;
+  outline-offset: 1px;
+}
+
+.wrong {
+  outline: red solid 2px;
+  outline-offset: 1px;
+}

@@ -12,9 +12,7 @@ export default class CardWidget {
         <div class="card-widget__type type_mir"></div>
         <div class="card-widget__type type_visa"></div>
         <div class="card-widget__type type_mastercard"></div>
-        <div class="card-widget__type type_dinners-club"></div>
         <div class="card-widget__type type_jcb"></div>
-        <div class="card-widget__type type_discover"></div>
         <div class="card-widget__type type_american-express"></div>
       </div>
       <form>
